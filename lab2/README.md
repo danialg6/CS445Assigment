@@ -23,5 +23,5 @@ Function inlining." source https://codeburst.io/javascript-compiler-optimization
 ## how Chakra optimize javascript code
 * "Chakra, Microsoft’s JavaScript engine as used in Edge and Node-ChakraCore, has a very similar setup with two optimizing compilers. The interpreter optimizes into SimpleJIT — where JIT stands for Just-In-Time compiler — which produces somewhat optimized code. Combined with profiling data, the FullJIT can produce more-heavily-optimized code." source https://mathiasbynens.be/notes/shapes-ics
 
-![image]()
+![image](https://github.com/danialg6/CS445Assigment/blob/master/lab2/image/Chakra.PNG)
 ![fhgsjf]()
