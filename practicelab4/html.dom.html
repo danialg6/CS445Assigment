@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM in Asynchronous</title>
+</head>
+<body>
+  <input type="text" id="firstname" value="John"/>
+  <textarea id="blog">default text....</textarea>
+  <button id="btn">change value of first name</button>
+  <script>
+  document.getElementById("btn").onclick=function(){
+      document.getElementById("firstname").value="Edward";
+      document.getElementById("blog").textContent="changed...";
+    } 
+  </script> 
+</body>
+</html>

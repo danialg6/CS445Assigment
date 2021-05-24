@@ -1,6 +1,6 @@
 ## lab2 
 ### how JS engine optimize JavaScript code.
-
+### gitinit
 * javascript engine is a program that executes javascript code.
 * there are many diferent engines used to optimize javascript code. among these are:
     * V8  Google chrome javscriptengine
@@ -24,7 +24,7 @@ Function inlining." source https://codeburst.io/javascript-compiler-optimization
 ## ## how SpiderMonkey optimizes javascript code
 
 ![image](https://github.com/danialg6/CS445Assigment/blob/master/lab2/image/SpiderMonkey.PNG)
-
+![image]()
 * "SpiderMonkey, Mozilla’s JavaScript engine as used in Firefox and in SpiderNode, does it a little differently. They have not one but two optimizing compilers. The interpreter optimizes into the Baseline compiler, which produces somewhat optimized code. Combined with profiling data gathered while running the code, the IonMonkey compiler can produce heavily-optimized code. If the speculative optimization fails, IonMonkey falls back to the Baseline code." source https://mathiasbynens.be/notes/shapes-ics
 
 
