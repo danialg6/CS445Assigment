@@ -1,14 +1,15 @@
-let bankAccount = { 
-	money: 2000, 
-	deposit(value) { 
+
+ class bankAccount { 
+	money:number= 2000 
+	deposit(value:number) { 
 		this.money += value; 
 	} 
 }; 
-let myself = { 
-	name: "Asaad", 
-	bankAccount: bankAccount, 
-	hobbies: ["Violin", "Cooking"] 
+class myself extends bankAccount { 
+	name:string= "Asaad", 
+	bankAccount:number= new bankAccount(), 
+	hobbies:string= ["Violin", "Cooking"] 
 }; 
 
-myself.bankAccount.deposit(3000); 
+let a=new myself.bankAccount.deposit(3000); 
 console.log(myself);
